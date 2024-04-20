@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".app.activity.AdminHomeActivity">
+
+    <Button
+        android:id="@+id/btnProductList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách sản phẩm"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/btnUserList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách người dùng"
+        android:layout_below="@id/btnProductList"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"/>
+
+</RelativeLayout>
